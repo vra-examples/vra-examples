@@ -25,6 +25,6 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          deploy_key: ${{ secrets.UNOFFICIAL_VRA_DOCS_DEPLOY_KEY }}
           external_repository: unofficial-vra-docs/unofficial-vra-docs.github.io
           publish_branch: main
