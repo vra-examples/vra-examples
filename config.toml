@@ -3,24 +3,14 @@ languageCode = "en-us"
 title = "The Unofficial vRealize Automation Docs"
 theme = "kraiklyn"
 
+pygmentsUseClasses = true
+pygmentsCodefences = true
+pygmentsStyle = "github"
+
 [params]
-sidebarColor = "default"
-
+    sidebarColor = "default"
+    customCss = ["css/syntax.css"]
 [[menu.shortcuts]]
-name = "Contribute"
-url = "https://github.com/unofficial-vra-docs/unofficial-vra-docs"
-weight = 10
-
-[markup]
-  [markup.highlight]
-    anchorLineNos = false
-    codeFences = true
-    guessSyntax = false
-    hl_Lines = ""
-    lineAnchors = ""
-    lineNoStart = 1
-    lineNos = false
-    lineNumbersInTable = true
-    noClasses = true
-    style = "monokai"
-    tabWidth = 4
+    name = "Contribute"
+    url = "https://github.com/unofficial-vra-docs/unofficial-vra-docs"
+    weight = 10
