@@ -4,3 +4,6 @@
 [submodule "public"]
 	path = public
 	url = git@github.com:unofficial-vra-docs/unofficial-vra-docs.github.io.git
+[submodule "themes/hugo-theme-docport"]
+	path = themes/hugo-theme-docport
+	url = https://github.com/vjeantet/hugo-theme-docport.git
