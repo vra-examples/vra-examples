@@ -2,7 +2,7 @@
 title: "Custom Integrations"
 date: 2020/11/04 14:21
 anchor: "customintegrations"
-weight: 70
+weight: 250
 ---
 To create a Custom Integration:
 

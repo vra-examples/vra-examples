@@ -1,6 +1,6 @@
 baseURL = "https://unofficial-vra-docs.github.io/"
 languageCode = "en-us"
-title = "The Unofficial vRealize Automation Docs"
+title = "Unofficial vRealize Automation How-To Docs"
 theme = "kraiklyn"
 
 pygmentsUseClasses = true
@@ -11,6 +11,6 @@ pygmentsStyle = "github"
     sidebarColor = "default"
     customCss = ["css/syntax.css"]
 [[menu.shortcuts]]
-    name = "Contribute"
+    name = "Got an example? Contribute!"
     url = "https://github.com/unofficial-vra-docs/unofficial-vra-docs"
     weight = 10
