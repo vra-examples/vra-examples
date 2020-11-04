@@ -1,7 +1,7 @@
 ---
-title: "Basic Authentication Header"
+title: "Basic Auth"
 date: 2020/11/04 14:21
-anchor: "basicauthenticationheader"
+anchor: "basicauth"
 ---
 
 To generate a basic authentication header from a username and password in Code Stream you could use a CI task and execute `echo -n username:password | base64`, then export the result for use later on. A more repeatable way is to create a Custom Integration that takes the two inputs, and returns the encoded header as an output.
