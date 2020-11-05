@@ -3,4 +3,4 @@
 	url = https://github.com/jsnjack/kraiklyn.git
 [submodule "public"]
 	path = public
-	url = git@github.com:unofficial-vra-docs/unofficial-vra-docs.github.io.git
+	url = git@github.com:vra-examples/vra-examples.github.io.git
