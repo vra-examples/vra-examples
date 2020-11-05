@@ -1,6 +1,6 @@
 baseURL = "https://vra-examples.github.io/"
 languageCode = "en-us"
-title = "vRealize Automation Exampes"
+title = "vRealize Automation Examples"
 theme = "kraiklyn"
 
 pygmentsUseClasses = true
