@@ -1,13 +1,6 @@
 # How to contribute
 
-## Installing Hugo
-
-Install Hugo on your local machine - https://gohugo.io/getting-started/installing/
-
-I'm using a Mac - 
-```bash
-brew install hugo
-```
+The vRealize Automation Examples team welcomes contributions from the community!
 
 ## Clone the source repository
 
@@ -69,3 +62,13 @@ To add a new parent topic:
     ```
     ![](content/images/2020-11-06-13-04-31.png)
 7. Once the PR is approved, GitHub actions will automatically build and publish the content
+
+
+## Testing modifications locally
+
+Install Hugo on your local machine - https://gohugo.io/getting-started/installing/
+
+I'm using a Mac - 
+```bash
+brew install hugo
+```
