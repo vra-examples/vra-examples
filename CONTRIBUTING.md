@@ -12,13 +12,13 @@ The vRealize Automation Examples team welcomes contributions from the community!
 6. Write a descriptive commit message `git commit -m "New example workflow that does this"`
 7. Push the new branch `git push -u origin my-new-example`
 8. Create a pull request
-    ![](content/images/2020-11-06-14-26-32.png)
+    ![](images/2020-11-06-14-26-32.png)
 
 Once the PR is approved, the changes will be published.
 
 # Content structure
 The `vra-examples/content` folder structure represents the page structure on the site:
-![](content/images/2020-11-06-12-46-09.png)
+![](images/2020-11-06-12-46-09.png)
 
 To add a new parent topic:
 1. Create the parent folder - e.g. `SaltStack Config`
@@ -76,4 +76,4 @@ hugo server
 ```
 
 Hugo will generate the static files and create a temporary web server locally
-![](content/images/2020-11-06-14-30-25.png)
+![](images/2020-11-06-14-30-25.png)
