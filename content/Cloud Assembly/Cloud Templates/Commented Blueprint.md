@@ -6,18 +6,6 @@ anchor: "commentedcloudtemplate"
 This blueprint shows various ways to enhance a blueprint via YAML with explanations of the various parameters. There are comments throughout for your refernce. You can clone this blueprint and then experiment a bit with YAML if you want. If you are totally new to YAML then you can visit https://yaml.org/ to get more familiar with it.
 
 ```yaml
-# This blueprint shows various ways to enhance a blueprint via YAML with explanations of the various parameters                      *
-# There are comments throughout for your refernce.                                                                                   *
-# You can clone this blueprint and then experiment a bit with YAML if you want. If you are totally new to YAML                       *
-# then you can visit https://yaml.org/ to get more familiar with it.                                                                 *
-# ** PLEASE DO NOT MODIFY THIS BLUEPRINT >> CLONE IT!!**                                                                             *
-# References:                                                                                                                        *
-# https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-12F0BC64-6391-4E5F-AA48-C5959024F3EB.html        *
-# https://blogs.vmware.com/management/2019/02/blueprinting-expressions-in-cloud-assembly.html                                        *
-# There are some blueprint code examples here:                                                                                       *
-# https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-4717026E-D11A-48FE-93A9-E409A623C723.html        *
-# This blueprint will deploy minimum of 3 Virtual Machines and run scripts to install packages.                                      *
-#*************************************************************************************************************************************
 name: Blueprint with Comments
 # Dont forget to give your blueprint a useful name!
 formatVersion: 1

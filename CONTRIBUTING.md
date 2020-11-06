@@ -2,14 +2,22 @@
 
 The vRealize Automation Examples team welcomes contributions from the community!
 
-## Clone the source repository
+## Contributing Workflow
 
-```
-git clone https://github.com/vra-examples/vra-examples.git
-```
+1. Fork the repository
+2. Clone the fork - e.g. `git clone git@github.com:sammcgeown/vra-examples.git`
+3. Create a branch for the new example - e.g. `git branch -b my-new-example
+4. Add the example
+5. Check in the example `git add path/to/example.md`
+6. Write a descriptive commit message `git commit -m "New example workflow that does this"`
+7. Push the new branch `git push -u origin my-new-example`
+8. Create a pull request
+    ![](content/images/2020-11-06-14-26-32.png)
 
-In the `vra-examples/content` the folder structure represents the page structure:
+Once the PR is approved, the changes will be published.
 
+# Content structure
+The `vra-examples/content` folder structure represents the page structure on the site:
 ![](content/images/2020-11-06-12-46-09.png)
 
 To add a new parent topic:
@@ -52,17 +60,6 @@ To add a new parent topic:
             - pkg: apache
         ```
     ```
-6. Add the untracked files to git
-    ```bash
-    git status # View untracked or modified files
-    git add content/SaltStack\ Config/Salt\ States/Apache\ Install\ Salt\ State.md # Add the files
-    git add content/SaltStack\ Config/Salt\ States/_index.md
-    git commit -m "Add SaltStack Config section" # Create a meaningful commit message
-    git push # Push the commit
-    ```
-    ![](content/images/2020-11-06-13-04-31.png)
-7. Once the PR is approved, GitHub actions will automatically build and publish the content
-
 
 ## Testing modifications locally
 
@@ -72,3 +69,11 @@ I'm using a Mac -
 ```bash
 brew install hugo
 ```
+Move into the `vra-examples` folder and run:
+
+```shell
+hugo server
+```
+
+Hugo will generate the static files and create a temporary web server locally
+![](content/images/2020-11-06-14-30-25.png)
