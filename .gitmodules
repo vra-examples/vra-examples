@@ -1,6 +1,3 @@
 [submodule "themes/kraiklyn"]
 	path = themes/kraiklyn
 	url = https://github.com/jsnjack/kraiklyn.git
-[submodule "public"]
-	path = public
-	url = git@github.com:vra-examples/vra-examples.github.io.git
