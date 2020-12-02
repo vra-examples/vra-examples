@@ -5,7 +5,9 @@ The vRealize Automation Examples team welcomes contributions from the community!
 ## Contributing Workflow
 
 1. Fork the repository
-2. Clone the fork - e.g. `git clone git@github.com:sammcgeown/vra-examples.git`
+2. Clone the fork and submodules
+* e.g. `git clone --recurse-submodules https://github.com/<your username>/vra-examples.git`
+* or `git clone https://github.com/<your username>/vra-examples.git`, `git submodule init`, `git submodule update`
 3. Create a branch for the new example - e.g. `git branch -b my-new-example
 4. Add the example
 5. Check in the example `git add path/to/example.md`
